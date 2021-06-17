@@ -6,10 +6,10 @@ description: >
     블로그
 
 # My information
-email: -
+email: sample@sample.mail
 author: xianblue
 profile:
-twitter_username: -
+twitter_username:
 github_username: xianblue
 comment-support: utterances
 
