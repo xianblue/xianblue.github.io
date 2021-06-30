@@ -3,7 +3,7 @@ layout  : wiki
 title   : MathJax로 LaTeX 사용하기
 summary :
 date    : 2017-11-28 22:56:29 +0900
-updated : 2021-06-30 16:23:35 +0900
+updated : 2021-06-30 16:26:45 +0900
 tag     : latex
 toc     : true
 public  : true
@@ -14,7 +14,7 @@ latex   : true
 {:toc}
 
 ## 개요
-![image test](_assets/ssim3.png)
+![image test 3](_assets/img/ssim3.png)
 
 자신의 웹 페이지에서 LaTeX를 사용하고 싶다면 MathJax에서 제공하는 자바스크립트 라이브러리를 쓰면 된다.
 
