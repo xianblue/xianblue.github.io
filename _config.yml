@@ -61,9 +61,3 @@ timezone: "Asia/Seoul"
 # https://kramdown.gettalong.org/rdoc/Kramdown/Options.html - smart_quotes
 kramdown:
     smart_quotes: ["apos", "apos", "quot", "quot"]
-
-defaults:
-  - scope:
-      path: "assets/img"
-    values:
-      image: true
