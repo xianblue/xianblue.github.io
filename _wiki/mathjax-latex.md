@@ -3,8 +3,8 @@ layout  : wiki
 title   : MathJax로 LaTeX 사용하기
 summary :
 date    : 2017-11-28 22:56:29 +0900
-updated : 2021-06-30 16:39:53 +0900
-tag     : latex
+updated : 2021-07-01 16:36:07 +0900
+tag     : latex new-tag
 toc     : true
 public  : true
 parent  : [[how-to]]
