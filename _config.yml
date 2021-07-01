@@ -3,7 +3,7 @@ title: xianblue
 url: "https://xianblue.github.io"
 baseurl: ""
 description: >
-    블로그
+    개인 위키
 
 # My information
 email: sample@sample.mail
@@ -18,7 +18,7 @@ plugins:
   - jekyll-paginate
   - jekyll-gist
 
-permalink: /blog/:year/:month/:day/:title/
+# permalink: /blog/:year/:month/:day/:title/
 
 markdown: kramdown
 highlighter: rouge
@@ -26,9 +26,9 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
 
-paginate: 10
-paginator_path: "/blog"
-paginate_path: "/blog/page:num/"
+# paginate: 10
+# paginator_path: "/blog"
+# paginate_path: "/blog/page:num/"
 
 # Collections
 collections:
