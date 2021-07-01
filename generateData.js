@@ -7,7 +7,6 @@ const tagMap = {};
 const pageMap = {};
 
 getFiles('./_wiki', 'wiki', list);
-getFiles('./_posts', 'blog', list);
 
 const dataList = list.map(file => collectData(file))
                      .filter((row) => row != null)
@@ -19,7 +18,7 @@ dataList.forEach(function collectTagMap(data) {
     if (!data.tag) {
         return;
     }
-    
+
     data.tag.forEach(tag => {
         if (!tagMap[tag]) {
             tagMap[tag] = [];
@@ -37,8 +36,8 @@ for (const tag in tagMap) {
 saveTagMap(tagMap);
 
 dataList.sort(lexicalOrderingBy('fileName'))
-        .forEach((page) => { 
-            pageMap[page.fileName] = 
+        .forEach((page) => {
+            pageMap[page.fileName] =
                         {
                             type: page.type,
                             title: page.title,
@@ -172,7 +171,7 @@ function parseInfo(file, info) {
     if (info === null) {
         return undefined;
     }
-    
+
     const obj = {};
     obj.fileName = file.name.replace(/\.md$/, '');
     obj.type = file.type;
@@ -185,7 +184,7 @@ function parseInfo(file, info) {
         if (result == null) {
             return;
         }
-        
+
         const key = result[1].trim();
         const val = result[2].trim().replace(/\[{2}|\]{2}/g, '');
 
