@@ -6,10 +6,10 @@ description: >
     개인 위키
 
 # My information
-email: sample@sample.mail
+# email: sample@sample.mail
 author: xianblue
 profile:
-twitter_username:
+# twitter_username:
 github_username: xianblue
 comment-support: utterances
 
