@@ -3,8 +3,8 @@ layout  : wiki
 title   : x265 프리셋 비교
 summary :
 date    : 2021-07-03 16:13:38 +0900
-updated : 2021-07-03 19:12:18 +0900
-tags    : x264, x265
+updated : 2021-07-03 19:13:27 +0900
+tags    : x265
 toc     : true
 public  : true
 parent  : [[codec]]
