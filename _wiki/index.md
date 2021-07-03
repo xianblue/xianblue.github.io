@@ -8,5 +8,3 @@ regenerate: true
 ---
 
 ## wiki items
-
-* [[mathjax-latex]]
