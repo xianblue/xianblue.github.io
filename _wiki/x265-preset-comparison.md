@@ -3,7 +3,7 @@ layout  : wiki
 title   : x265 프리셋 비교
 summary :
 date    : 2021-07-03 16:13:38 +0900
-updated : 2021-07-03 19:13:27 +0900
+updated : 2021-07-06 11:19:58 +0900
 tags    : x265
 toc     : true
 public  : true
@@ -12,6 +12,8 @@ latex   : false
 ---
 * TOC
 {:toc}
+
+** 2021-07-06 테스트를 잘못한 것을 발견했습니다. 참고하지 말아주세요. **
 
 ## 개요
 x265로 HEVC 인코딩을 할 경우, 프리셋(preset)으로 압축 정도를 정하고, CRF 값으로 화질을 정할 수 있다.
